@@ -37,13 +37,13 @@
 // | BTCLR | BT1 | BT2 |  BT3 |  BT4 | OUTTOG |                   |  7   |  8    |  9    |  *   |       |       |
 // |  F1   |  F2 |  F3 |  F4  |  F5  |   F6   |                   |  4   |  5    |  6    |  /   |   \   |  "|"  |
 // |  F7   |  F8 |  F9 |  F10 |  F11 |   F12  |                   |  1   |  2    |  3    |  +   |   =   |       |
-// |       |     |     |      |      |        |        |  |       |      |  0    |       |  -   |       |       |
+// |       |     |     |      |      |        |        |  |       |      |  0    |  .    |  -   |       |       |
 //                     |      |      |        |        |  |       |      |       |       |
             bindings = <
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &out OUT_TOG                       &kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9 &kp KP_MULTIPLY &trans    &trans
 &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                             &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_6 &kp KP_DIVIDE   &kp BSLH    &kp PIPE
 &kp F7     &kp F8           &kp F9            &kp F10           &kp F11      &kp F12                            &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_PLUS     &kp EQUAL &trans
-&trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans        &trans    &trans     &trans          &kp KP_NUMBER_0 &trans          &kp KP_MINUS    &trans    &trans
+&trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans        &trans    &trans     &trans          &kp KP_NUMBER_0 &kp DOT          &kp KP_MINUS    &trans    &trans
                                               &trans            &trans       &trans        &trans    &trans     &trans          &trans          &trans
             >;
 
