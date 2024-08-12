@@ -37,7 +37,7 @@
 &trans  &trans         &trans                             &trans                                  &trans                &trans                                 &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &trans     &trans
 &trans  &kp LC(LG(Q))  &trans                             &kp UP_ARROW                            &kp LG(LS(NUMBER_4))  &trans                                 &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE    &kp BSLH   &kp PIPE
 &trans  &trans         &kp LEFT_ARROW                     &kp DOWN_ARROW                          &kp RIGHT_ARROW       &trans                                 &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS      &kp EQUAL  &trans
-&trans  &trans         &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans                &trans         &out OUT_TOG    &trans  &trans           &kp KP_NUMBER_0  &kp DOT          &kp KP_MINUS     &trans     &trans
+&trans  &kp RG(LEFT)   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp RG(RIGHT)         &trans         &out OUT_TOG    &trans  &trans           &kp KP_NUMBER_0  &kp DOT          &kp KP_MINUS     &trans     &trans
                                                           &trans                                  &trans                &kp BACKSPACE  &kp ENTER       &trans  &trans           &trans           &trans
             >;
         };
