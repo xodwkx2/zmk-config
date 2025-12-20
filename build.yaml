@@ -21,9 +21,17 @@
 include:
   - board: nice_nano@2.0.0
     shield: corne_left
+    config: corne/corne.conf
+    keymap: corne/corne.keymap
   - board: nice_nano@2.0.0
     shield: corne_right
+    config: corne/corne.conf
+    keymap: corne/corne.keymap
 #   - board: nice_nano@2.0.0
 #     shield: lily58_left
+#     config: lily58/lily58.config
+#     keymap: lily58/lily58.keymap
 #   - board: nice_nano@2.0.0
 #     shield: lily58_right
+#     config: lily58/lily58.config
+#     keymap: lily58/lily58.keymap
