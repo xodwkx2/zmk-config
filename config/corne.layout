@@ -1,0 +1,11 @@
+/ {
+    underglow {
+        compatible = "zmk,rgb-underglow";
+        label = "RGB_UNDERGLOW";
+        chain-length = <10>;
+        color-order = <GRB>;
+        status = "okay";
+
+        led-strip = <&spi3>;
+    };
+};
