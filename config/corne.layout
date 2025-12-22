@@ -1,11 +1,22 @@
-/ {
-    underglow {
-        compatible = "zmk,rgb-underglow";
-        label = "RGB_UNDERGLOW";
+&spi3 {
+    status = "okay";
+    cs-gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;
+
+    ws2812: ws2812@0 {
+        compatible = "worldsemi,ws2812-spi";
+        reg = <0>;
+        spi-max-frequency = <8000000>;
         chain-length = <10>;
         color-order = <GRB>;
         status = "okay";
+    };
+};
 
-        led-strip = <&spi3>;
+ / {
+    underglow {
+        compatible = "zmk,rgb-underglow";
+        label = "RGB_UNDERGLOW";
+        status = "okay";
+        led-strip = <&ws2812>;
     };
 };
