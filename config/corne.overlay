@@ -5,11 +5,11 @@
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
         width = <128>;
-        height = <32>;     // 128x64 사용 시 64로 변경
+        height = <64>;     // 128x64 사용 시 64로 변경
         segment-remap;
         page-remap;
         display-offset = <0>;
-        multiplex-ratio = <31>; // 128x64 사용 시 63으로 변경
+        multiplex-ratio = <63>; // 128x64 사용 시 63으로 변경
         segment-offset = <0>;
         page-offset = <0>;
         prechargep = <0x22>;
