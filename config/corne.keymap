@@ -23,8 +23,8 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q       &kp W      &kp E        &kp R       &kp T      &kp Y     &kp U        &kp I          &kp O        &kp P          &kp BSPC
-   &kp LCTRL &mt LCTRL A &mt LGUI S &mt LALT D   &mt LSHFT F &kp G      &kp H     &mt RSHFT J  &mt RALT K     &mt RGUI L   &mt RCTRL SEMI &kp SQT
-   &kp LSHFT &kp Z       &kp X      &kp C        &kp V       &kp B      &kp N     &kp M        &kp COMMA      &kp DOT      &kp FSLH       &kp ESC
+   &kp LSHFT &mt LSHFT A &mt LGUI S &mt LALT D   &mt LCTRL F &kp G      &kp H     &mt RCTRL J  &mt RALT K     &mt RGUI L   &mt RSHFT SEMI &kp SQT
+   &kp LSHFT &lt3 Z      &kp X      &kp C        &kp V       &kp B      &kp N     &kp M        &kp COMMA      &kp DOT      &lt 3 FSLH     &kp ESC
                                     &mt LGUI ESC &lt 1 TAB   &kp SPACE  &lt 2 RET &kp BSPC   &mo 3
                         >;
                 };
@@ -37,10 +37,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp UP       &kp N4       &kp N5          &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &kp LSHFT  &trans       &kp LEFT     &kp DOWN     &kp RIGHT    &rgb_ug RGB_TOG &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans   &trans   &trans &trans    &trans &trans
-                           &bt BT_CLR   &trans       &out OUT_TOG &kp RET         &trans   &kp RALT
+   &kp TAB    &trans       &trans       &kp UP       &trans       &trans          &kp LBKT    &kp RBKT     &kp TILDE       &kp GRAVE     &kp DEL  &kp BSPC
+   &kp LSHFT  &trans       &kp LEFT     &kp DOWN     &kp RIGHT    &rgb_ug RGB_TOG &kp KP_PLUS &kp KP_MINUS &kp KP_MULTIPLY &kp KP_DIVIDE &kp SQT  &trans
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &kp LBRC    &kp RBRC     &kp BSLH        &kp PIPE      &kp DQT  &trans
+                           &kp BSPC     &trans       &kp RET      &trans          &trans      &trans
                         >;
                 };
 
@@ -55,7 +55,7 @@
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR &kp BSPC
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp BSLH &kp GRAVE
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE &kp TILDE
-                             &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                             &trans &trans   &trans   &trans    &trans    &trans
                         >;
                 };
 
@@ -67,10 +67,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp EXCL &kp N7  &kp N8  &kp N9  &kp PRCNT   &kp CARET &kp N7  &kp N8 &kp N9 &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &kp N4 &kp N5   &kp N6   &trans      &kp MINUS &kp N4 &kp N5  &kp N6 &kp BSLH &kp GRAVE
-   &kp LSHFT &kp N0   &kp N1 &kp N2   &kp N3   &trans      &kp UNDER &kp N1  &kp N2  &kp N3 &kp PIPE &kp TILDE
-                             &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+   &kp TAB  &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT     &kp CARET &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR &kp BSPC
+   &trans   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0   &trans
+   &kp TAB  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &trans    &trans    &trans    &trans    &trans   &kp TILDE
+                                      &bt BT_CLR   &out OUT_TOG &kp SPACE     &kp RET   &kp RALT  &trans  
                         >;
                 };
         };
