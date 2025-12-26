@@ -33,9 +33,8 @@ jobs:
         run: |
           mkdir -p keymap-drawer
           keymap parse \
-            -c config/config_keymap-drawer.yaml \
-            config/corne.keymap \
-            > keymap-drawer/corne.yaml
+            -z config/corne.keymap \
+            -o keymap-drawer/corne.yaml
 
       - name: Draw SVG
         run: |
