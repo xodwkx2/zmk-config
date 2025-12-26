@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Draw keymaps
-        uses: caksoylar/keymap-drawer@v1.6.1
+        uses: caksoylar/keymap-drawer@main
         with:
           config_path: config/keymap_drawer.yaml
           keymap_path: config/corne.keymap
